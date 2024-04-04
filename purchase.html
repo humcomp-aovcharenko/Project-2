@@ -23,9 +23,25 @@
         </div>
       </nav>
     </header>
-    <section class="movie_picture">
-    </section>
-    <section class="movie_description">
-    </section>
+    <div class="container">
+      <h1>Tickets:</h1>
+      <form  id="form" method="POST" action="#null" autocomplete="on">
+        <fieldset>
+          <legend class="main_legend">Sign Up</legend>
+          <div>
+            <label>Username <input type="text" name="text_field" placeholder="Name" required></label>
+         </div>
+          <div>
+             <label>Email: <input type="text" name="text_field" placeholder="Email" required></label>
+          </div>
+          <div>
+            <label>Password: 
+              <input type="password" id="password" placeholder="Password" minlength="8" maxlength="64">
+            </label>
+          </div>
+        </fieldset>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
   </body>
 </html>
